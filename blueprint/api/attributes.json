@@ -1,0 +1,25 @@
+[
+  {
+    "startdate": "timestamp *required",
+    "enddate": "timestamp *required",
+    "type": [
+      "cumulative",
+      "usual"
+    ],
+    "grouping": [
+      "weekly",
+      "bi-weekly",
+      "monthly"
+    ],
+    "asin": "ID of product",
+    "brand": "string",
+    "source": "amazon",
+    "stars": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+]
